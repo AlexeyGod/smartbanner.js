@@ -22,7 +22,7 @@ export default class Detector {
   }
 
   static wrapperElement() {
-    let selector = Detector.jQueryMobilePage() ? '.ui-page' : 'html';
+    let selector = Detector.jQueryMobilePage() ? '.ui-page' : 'body';
     return document.querySelectorAll(selector);
   }
 
